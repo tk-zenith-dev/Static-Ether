@@ -1,5 +1,4 @@
 {
-  "$schema": "https://staticether.org/schemas/v2.1.1/ruleset.json",
   "schema_version": "2.1.1",
   "ruleset_id": "com.tkzenith.staticether.ruleset.telemetry",
   "metadata": {
@@ -354,17 +353,53 @@
         "statsig.com",
         "adx-analytics.ru",
         "data-optout-service.uca.cloud.unity3d.com",
-        "thind-gke-euw.prd.data.corp.unity3d.com"
+        "thind-gke-euw.prd.data.corp.unity3d.com",
+        "mon.tiktokv.com",
+        "analytics.tiktok.com",
+        "toblog.ctobsnssdk.com",
+        "mon.snssdk.com",
+        "log.byteoversea.com",
+        "mon.byteoversea.com",
+        "pitaya.tiktokv.com",
+        "sf16-muse-va.ibytedtos.com",
+        "ib.snssdk.com",
+        "isnssdk.com",
+        "open.isnssdk.com",
+        "i.isnssdk.com",
+        "ichannel.isnssdk.com",
+        "h5.isnssdk.com",
+        "dm.isnssdk.com",
+        "s.youtube.com",
+        "youtubei.googleapis.com",
+        "video-stats.l.google.com",
+        "graph.facebook.com",
+        "pixel.facebook.com",
+        "an.facebook.com",
+        "connect.facebook.net"
       ],
-      "whitelist_exceptions": []
+      "whitelist_exceptions": [
+        "v16-webapp-prime.tiktok.com",
+        "api-va.tiktokv.com",
+        "googlevideo.com"
+      ]
     },
     "l7_tls_sni": {
-      "blocked_snis": [],
-      "whitelist_snis": []
+      "blocked_snis": [
+        "dns.google",
+        "cloudflare-dns.com",
+        "log.byteoversea.com"
+      ],
+      "whitelist_snis": [
+        "tiktokcdn.com",
+        "googlevideo.com"
+      ],
+      "ja4_fingerprints_blacklist": [
+        "t13d1516h2_8daaf6152771_010203040506"
+      ]
     }
   },
   "rulesets": {
-    "telemetry_and_tracking": [
+    "telemetry": [
       "app.adjust.com",
       "adjust.com",
       "adjust.world",
@@ -651,7 +686,29 @@
       "statsig.com",
       "adx-analytics.ru",
       "data-optout-service.uca.cloud.unity3d.com",
-      "thind-gke-euw.prd.data.corp.unity3d.com"
+      "thind-gke-euw.prd.data.corp.unity3d.com",
+      "mon.tiktokv.com",
+      "analytics.tiktok.com",
+      "toblog.ctobsnssdk.com",
+      "mon.snssdk.com",
+      "log.byteoversea.com",
+      "mon.byteoversea.com",
+      "pitaya.tiktokv.com",
+      "sf16-muse-va.ibytedtos.com",
+      "ib.snssdk.com",
+      "isnssdk.com",
+      "open.isnssdk.com",
+      "i.isnssdk.com",
+      "ichannel.isnssdk.com",
+      "h5.isnssdk.com",
+      "dm.isnssdk.com",
+      "s.youtube.com",
+      "youtubei.googleapis.com",
+      "video-stats.l.google.com",
+      "graph.facebook.com",
+      "pixel.facebook.com",
+      "an.facebook.com",
+      "connect.facebook.net"
     ]
   }
 }
