@@ -1,5 +1,4 @@
 {
-  "$schema": "https://staticether.org/schemas/v2.1.1/ruleset.json",
   "schema_version": "2.1.1",
   "ruleset_id": "com.tkzenith.staticether.ruleset.advertising",
   "metadata": {
@@ -107,7 +106,6 @@
         "d.applovin.com",
         "rt.applovin.com",
         "applvn.com",
-        "ms.applvn.com",
         "a.applovin.com",
         "prod-ms.applovin.com",
         "unityads.unity3d.com",
@@ -748,13 +746,41 @@
         "adservice.tohsoft.com",
         "anythinktech.com",
         "toponadss.com",
-        "judo.hotminidrama.com"
+        "judo.hotminidrama.com",
+        "tiktokv.com",
+        "pitaya.tiktokv.com",
+        "ttadsmanager.com",
+        "mon.tiktokv.com",
+        "sf16-static.i18n-pglstatp.com",
+        "ads-api.tiktok.com"
       ],
-      "whitelist_exceptions": []
+      "whitelist_exceptions": [
+        "v16-webapp-prime.tiktok.com",
+        "api-va.tiktokv.com",
+        "p16-sign-va.tiktokcdn.com",
+        "googlevideo.com"
+      ],
+      "glob_domains": [
+        "ad*.tiktok.com",
+        "ads-*.tiktok.com"
+      ]
     },
     "l7_tls_sni": {
-      "blocked_snis": [],
-      "whitelist_snis": []
+      "blocked_snis": [
+        "sf16-static.i18n-pglstatp.com",
+        "ads-api.tiktok.com",
+        "log.byteoversea.com",
+        "dns.google",
+        "cloudflare-dns.com"
+      ],
+      "whitelist_snis": [
+        "tiktokcdn.com",
+        "ibytedtos.com",
+        "googlevideo.com"
+      ],
+      "ja4_fingerprints_blacklist": [
+        "t13d1516h2_8daaf6152771_010203040506"
+      ]
     }
   },
   "rulesets": {
@@ -798,7 +824,6 @@
       "d.applovin.com",
       "rt.applovin.com",
       "applvn.com",
-      "ms.applvn.com",
       "a.applovin.com",
       "prod-ms.applovin.com",
       "unityads.unity3d.com",
@@ -1439,7 +1464,13 @@
       "adservice.tohsoft.com",
       "anythinktech.com",
       "toponadss.com",
-      "judo.hotminidrama.com"
+      "judo.hotminidrama.com",
+      "tiktokv.com",
+      "pitaya.tiktokv.com",
+      "ttadsmanager.com",
+      "mon.tiktokv.com",
+      "sf16-static.i18n-pglstatp.com",
+      "ads-api.tiktok.com"
     ]
   }
 }
