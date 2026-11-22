@@ -1,7 +1,7 @@
 {
   "version": 1120,
   "timestamp": "2026-11-22T00:00:00Z",
-  "total_rules": 995,
+  "total_rules": 1021,
   "checksum": "b2c3d4e5f67890123456789abcdef0123456789abcdef0123456789abcdef012",
   "update_info": {
     "force_update": false,
@@ -93,14 +93,14 @@
       "name": "Publicidad y Anuncios",
       "filename": "ads.json",
       "url": "https://raw.githubusercontent.com/tk-zenith-dev/Static-Ether/main/static-conect/Api/DB/ads.json",
-      "rules_count": 686
+      "rules_count": 706
     },
     {
       "id": "telemetry",
       "name": "Telemetría y Rastreo",
       "filename": "telemetry.json",
       "url": "https://raw.githubusercontent.com/tk-zenith-dev/Static-Ether/main/static-conect/Api/DB/telemetry.json",
-      "rules_count": 309
+      "rules_count": 315
     }
   ]
 }

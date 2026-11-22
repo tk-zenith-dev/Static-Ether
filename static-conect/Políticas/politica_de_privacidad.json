@@ -1,0 +1,74 @@
+{
+  "policy_id": "com.tkzenith.staticether.policy.privacy",
+  "schema_version": "2.1.1",
+  "app_id": "com.tkzenith.staticether",
+  "version": "1.1.20",
+  "version_code": 1120,
+  "last_updated": "2026-11-22T00:00:00Z",
+  "download_url": "https://raw.githubusercontent.com/tk-zenith-dev/Static-Ether/main/static-conect/Pol%C3%ADticas/politica_de_privacidad.json",
+  "repository_url": "https://github.com/tk-zenith-dev/Static-Ether",
+  "metadata": {
+    "title": {
+      "es": "Política de Privacidad de Static Ether",
+      "en": "Static Ether Privacy Policy",
+      "pt": "Política de Privacidade do Static Ether"
+    },
+    "zero_logs_guarantee": true,
+    "local_processing_only": true,
+    "vpn_service_loopback_only": true
+  },
+  "sections": [
+    {
+      "id": "no_logs",
+      "title": {
+        "es": "1. Operación 100% Local y Cero Recopilación de Datos (No-Logs Policy)",
+        "en": "1. 100% On-Device Operation and Zero Data Collection (No-Logs Policy)",
+        "pt": "1. Operação 100% Local e Zero Coleta de Dados (Política No-Logs)"
+      },
+      "content": {
+        "es": "Static Ether NO recopila, NO almacena y NO transmite ningún tipo de información personal, historial de navegación, consultas DNS, direcciones IP o identificadores de dispositivo. Todo el procesamiento de paquetes se realiza íntegramente en la memoria RAM local mediante un motor nativo C++20 con cero fugas de memoria.",
+        "en": "Static Ether DOES NOT collect, store, or transmit any personal information, browsing history, DNS queries, IP addresses, or device identifiers. All packet inspection occurs entirely within local RAM via a native C++20 engine with zero memory leaks.",
+        "pt": "O Static Ether NÃO coleta, NÃO armazena e NÃO transmite nenhum tipo de informação pessoal, histórico de navegação, consultas DNS, endereços IP ou identificadores de dispositivo. Todo o processamento ocorre na RAM local via motor C++20."
+      }
+    },
+    {
+      "id": "vpn_service",
+      "title": {
+        "es": "2. Declaración del Permiso VpnService de Android",
+        "en": "2. Android VpnService Permission Declaration",
+        "pt": "2. Declaração de Permissão VpnService do Android"
+      },
+      "content": {
+        "es": "El servicio crea una interfaz virtual de bucle local TUN (10.254.1.1 / fd00:1:fd00:1::1) en el dispositivo sin redirigir el tráfico a servidores remotos ni actuar como proxy de terceros. Su única finalidad es la inspección y filtrado de publicidad, telemetría y rastreo a nivel de kernel.",
+        "en": "The service creates a local TUN loopback interface on the device without routing traffic to remote VPN servers or third-party proxies. Its sole purpose is kernel-level filtering of ads, telemetry, and trackers.",
+        "pt": "O serviço cria uma interface TUN local sem redirecionar tráfego para servidores VPN remotos. Sua única finalidade é filtrar anúncios e telemetria."
+      }
+    },
+    {
+      "id": "data_security",
+      "title": {
+        "es": "3. Seguridad y Cifrado de Datos en Tránsito",
+        "en": "3. Data Security and In-Transit Encryption",
+        "pt": "3. Segurança e Criptografia em Trânsito"
+      },
+      "content": {
+        "es": "Las únicas conexiones externas realizadas por la app son solicitudes HTTPS TLS 1.3 directas hacia el repositorio público oficial en GitHub (github.com/tk-zenith-dev/Static-Ether) para verificar y actualizar periódicamente las bases de datos de reglas (ads.json y telemetry.json). Estas peticiones no contienen información de usuario.",
+        "en": "The only outbound connections made by the application are direct HTTPS TLS 1.3 requests to the official public GitHub repository to check and download ruleset updates. No user credentials or tokens are sent.",
+        "pt": "As únicas conexões externas são requisições HTTPS diretas ao GitHub para atualização de regras, sem dados pessoais."
+      }
+    },
+    {
+      "id": "unlimited_operation",
+      "title": {
+        "es": "4. Operación Continua e Ilimitada 24/7",
+        "en": "4. 24/7 Continuous and Unlimited Operation",
+        "pt": "4. Operação Contínua e Ilimitada 24/7"
+      },
+      "content": {
+        "es": "Static Ether opera de forma continua 24/7 sin límites de tiempo diarios, sin paywalls, sin suscripciones y sin cuotas de datos.",
+        "en": "Static Ether operates 24/7 continuously without daily timers, paywalls, subscriptions, or bandwidth quotas.",
+        "pt": "O Static Ether opera 24/7 continuamente sem limites diários ou paywalls."
+      }
+    }
+  ]
+}
