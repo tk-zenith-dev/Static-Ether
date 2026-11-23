@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/tk-zenith-dev/Static-Ether/main/static-conect/Políticas/ruleset_template.json",
   "schema_version": "2.1.1",
   "ruleset_id": "com.tkzenith.staticether.ruleset.template.custom",
   "metadata": {
